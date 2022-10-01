@@ -1,0 +1,7 @@
+abc123
+mdp separé
+mdpavec@dans.com
+mdpAvecEspaceALaFin 
+ espaceAuDébut
+accentséàèâêîô
+caractères*$£€!?;/:

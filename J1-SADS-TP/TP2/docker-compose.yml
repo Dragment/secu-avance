@@ -1,0 +1,47 @@
+version: '3.7'
+services:
+  mysql:
+    image: mysql
+    container_name: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - 3306:3306
+    environment:
+       - MYSQL_ROOT_PASSWORD=root
+       - MYSQL_DATABASE=corkery
+       - MYSQL_USER=corkery
+       - MYSQL_PASSWORD=corkery
+    restart: always
+    networks:
+      - network
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 3306"]
+      interval: 30s
+      timeout: 3s
+      retries: 5
+      start_period: 30s
+
+  nginx:
+    depends_on:
+      - mysql
+    image: nginx
+    container_name: nginx
+    ports:
+      - 80:80
+      - 443:443
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/certs/:/etc/nginx/certs/
+      - ./nginx/logs/:/var/log/nginx/
+      - ./nginx/www/:/etc/nginx/html/
+    restart: always
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
+

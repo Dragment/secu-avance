@@ -1,0 +1,3 @@
+Créer un script python qui brute force un formulaire HTML
+métaspotable2 port 80 -> formulaire à brute force
+utiliser rock you.txt

@@ -1,0 +1,14 @@
+Pour le serveur web:
+
+-Mettre en place des mots de passe fort pour les comptes à privilèges (16 caractères minimum)
+-Changer les mots de passe des comptes à privilèges régulièrement
+-Vérifier les inputs des formulaires entrant (dans le but d'éviter les injections sql, de code ect...)
+-Vérifier la fréquence d'envoie de données des clients afin d'éviter les attaques type dénis de service
+-Restreindre le nombre de tentative de connexion dans un certain délaie (éviter le brut force)
+-Mettre en place des logs afin de garder à l'oeil ce qu'il se passe sur le serveur
+-Ne pas donner plus d'accès à une personne que ce dont-elle a besoin (par exemple ne pas laisser les utilisateurs lambda accéder à tout les fichiers du serveur)
+-Mettre en place un certificat pour crypter les échanges entre les clients et le serveur
+-Mettre a jour le serveur régulièrement
+-Ne pas mettre des dates de validité trop longue pour les certificats
+-Quand c'est possible utiliser au maximum du chiffrement asymétrique (exemple RSA 2048)
+-Utiliser un certificat d'une organisation de certification reconnue

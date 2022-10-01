@@ -1,0 +1,58 @@
+2022/09/19 12:24:28 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:28 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:28 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:24:30 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:30 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:30 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:24:30 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:30 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:30 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:24:31 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:31 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:31 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:24:33 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:33 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:33 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:24:35 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:35 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:35 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:24:38 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:38 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:38 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:24:45 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:45 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:45 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:24:59 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:24:59 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:24:59 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:25:25 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:25:25 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:25:25 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:26:16 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:28
+2022/09/19 12:26:16 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:26:16 [emerg] 1#1: cannot load certificate key "/etc/nginx/certs/localhost.pem": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2022/09/19 12:33:50 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:33:50 [warn] 1#1: server name "https://localhost$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:38
+2022/09/19 12:33:50 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2022/09/19 12:33:50 [warn] 1#1: conflicting server name "return" on 0.0.0.0:80, ignored
+2022/09/19 12:33:50 [warn] 1#1: conflicting server name "301" on 0.0.0.0:80, ignored
+2022/09/19 12:33:50 [warn] 1#1: conflicting server name "https://localhost$request_uri" on 0.0.0.0:80, ignored
+2022/09/19 12:34:03 [error] 31#31: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/19 12:34:04 [error] 31#31: *1 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/09/19 12:36:23 [warn] 1#1: server name "https://127.0.0.1$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:36:23 [warn] 1#1: server name "https://127.0.0.1$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:38
+2022/09/19 12:36:23 [warn] 1#1: conflicting server name "return" on 0.0.0.0:80, ignored
+2022/09/19 12:36:23 [warn] 1#1: conflicting server name "301" on 0.0.0.0:80, ignored
+2022/09/19 12:36:23 [warn] 1#1: conflicting server name "https://127.0.0.1$request_uri" on 0.0.0.0:80, ignored
+2022/09/19 12:42:59 [warn] 1#1: server name "https://127.0.0.1$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:33
+2022/09/19 12:42:59 [warn] 1#1: server name "https://127.0.0.1$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:38
+2022/09/19 12:42:59 [warn] 1#1: conflicting server name "return" on 0.0.0.0:80, ignored
+2022/09/19 12:42:59 [warn] 1#1: conflicting server name "301" on 0.0.0.0:80, ignored
+2022/09/19 12:42:59 [warn] 1#1: conflicting server name "https://127.0.0.1$request_uri" on 0.0.0.0:80, ignored
+2022/09/19 12:43:19 [error] 31#31: *3 "/var/www/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: 127.0.0.1, request: "GET / HTTP/2.0", host: "localhost"
+2022/09/19 12:43:20 [error] 31#31: *3 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/2.0", host: "localhost", referrer: "https://localhost/"
+2022/09/19 12:43:53 [warn] 1#1: server name "https://127.0.0.1$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:32
+2022/09/19 12:43:53 [warn] 1#1: server name "https://127.0.0.1$request_uri" has suspicious symbols in /etc/nginx/nginx.conf:37
+2022/09/19 12:43:53 [warn] 1#1: conflicting server name "return" on 0.0.0.0:80, ignored
+2022/09/19 12:43:53 [warn] 1#1: conflicting server name "301" on 0.0.0.0:80, ignored
+2022/09/19 12:43:53 [warn] 1#1: conflicting server name "https://127.0.0.1$request_uri" on 0.0.0.0:80, ignored

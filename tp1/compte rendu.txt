@@ -1,0 +1,15 @@
+Générer les clés:
+	openssl genrsa -des3 -out private.pem 2048
+	openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+crypter:
+	openssl rsautl -encrypt -inkey public.pem -pubin -in secretFile.txt -out secretFile.enc
+décrypter:
+	openssl rsautl -decrypt -inkey private.pem -in secretFile.enc > secretFileDecode.txt
+
+
+AES
+crypter:
+	openssl enc -a -aes-256-cbc -in secretFile.txt -out secretFileCrypted.aes
+decrypter:
+	openssl enc -d -a -aes-256-cbc -in secretFileCrypted.aes -out secretFileDecrypted.txt
+

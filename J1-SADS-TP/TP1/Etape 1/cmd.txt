@@ -1,0 +1,6 @@
+https://opensource.com/article/21/4/encryption-decryption-openssl
+openssl genrsa -out private_key.pem 2048
+openssl rsa -in private_key.pem -pubout > public_key.pem
+openssl rsautl -encrypt -inkey public_key.pem -pubin -in test.txt -out test_encrypted.enc
+openssl rsautl -decrypt -inkey private_key.pem -in test_encrypted.enc > test_decrypted.txt
+openssl rsautl -decrypt -inkey private_key.pem -in test_encrypted.enc > test_decrypted.txt
